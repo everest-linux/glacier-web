@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glacier - Download</title>
+	<link type="text/css" rel="stylesheet" href="css/nord.css"/>
+</head>
+<body>
+<!-- Navbar -->
+<div class="sidenav">
+	<img src="img/glacier-nord.svg" alt="glacier-logo">
+	<a href="index.html">Home</a>
+	<a href="download.html">Downloads</a>
+	<a href="https://git.everestlinux.org/EverestLinux/glacier">Git ↗</a>
+</div>
+
+<!-- Rest of page -->
+<div class="hero-image">
+	<div class="hero-text">
+		<h1>Download</h1>
+	</div>
+</div>
+<div class="main">
+	<h2>Download and Install Glacier</h2>
+	<p>Glacier is relatively easy to install and set up, and there are multiple ways to do so. Choose the way you prefer.</p>
+	<h2>Everest Linux</h2>
+	<p>On an Everest system, Glacier is already installed. Since the entire package management system is so deeply rooted on an Everest system compared to other distributions, uninstalling or reinstalling Glacier is not recommended.</p>
+	<p>If, for some reason, you require a new version of Glacier, this can be done by pulling in a new base system from Git:</p>
+	<code>(user)$ cd /</code>
+	<p></p>
+	<code>(root)# git pull</code>
+	<h2>Stable Release</h2>
+	<p>The preferred way to get Glacier is through a stable release. These have been tried and tested, and have proven to work.</p>
+	<p>Download a release tarball:</p>
+	<code>DO THIS LATER</code>
+	<p>Unpack the tarball:</p>
+	<code>(user)$ tar xf glacier-X.X.X.tar.xz</code>
+	<p>Change directory into glacier-X.X.X/install:</p>
+	<p>Change <cil>config.mk</cil> to suit your needs:</p>
+	<code>(user)$ $EDITOR config.mk</code>
+	<p>Install:</p>
+	<code>(root)# make install</code>
+	<h2>Git Release</h2>
+	<p>Git releases are typically more unstable than stable tarball releases, but provide experimental features.</p>
+	<p>The steps for installing from a Git release are practically the same as installing from a tarball.</p>
+	<p>Instead of downloading a tarball, run the following:</p>
+	<code>(user)$ git clone https://git.everestlinux.org/EverestLinux/glacier</code>
+	<p></p>
+	<notehead><strong>NOTE:</strong></notehead>
+	<div class="note">
+		<p>Glacier v4 is currently in development. To use this release instead:</p>
+		<code>(user)$ git clone https://git.everestlinux.org/EverestLinux/glacier4</code>
+		<p>This release is highly experimental. Use at your own risk.</p>
+	</div>
+</div>
+<footer>
+<p>Copyright (C) 2021-2023 Everest Linux</p>
+<p>Linux (R) is a registered trademark of Linus Torvalds.</p>
+<p>Glacier is provided AS IS, WITHOUT WARRANTY.</p>
+</footer>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glacier - Home</title>
+	<link type="text/css" rel="stylesheet" href="css/nord.css"/>
+	<link rel="icon" type="image/x-icon" href="img/favicon.svg"/>
+</head>
+<body>
+<!-- Navbar -->
+<div class="sidenav">
+	<img src="img/glacier-nord.svg" alt="glacier-logo">
+	<a href="index.html">Home</a>
+	<a href="download.html">Downloads</a>
+	<a href="https://git.everestlinux.org/EverestLinux/glacier">Git ↗</a>
+</div>
+
+<!-- Rest of page -->
+<div class="hero-image">
+	<div class="hero-text">
+		<h1>Home</h1>
+	</div>
+</div>
+<div class="main">
+	<h2>Glacier</h2>
+	<p>A source-based package manager with emphasis on scripting and manual packaging.</p>
+	<h2>Advantages of Glacier</h2>
+	<strong>Complete control over performance: </strong><p>Through customizable <cil>make</cil> options, programs can be optimized at compile time to run at peak performance.</p>
+	<strong>Enhanced security: </strong><p>Unlike binary-based package managers, in which the user relies on upstream to fix vulnerabilities, Glacier packages can be patched by the user. Extra security features, such as stack-smashing protection, can be compiled as well. Additionally, Glacier tries to minimize connections to external servers by storing a local package database on the system.</p>
+	<strong>Concise syntax: </strong><p>Glacier's command-line and package file syntax is designed to be concise and memorable.</p>
+	<strong>Easy to package: </strong><p>Packaging software for Glacier is very easy, should you know shell scripting already. Simply create a package file, define its variables and functions, and you're all set.</p>
+	<h2>Get Glacier</h2>
+	<p>Glacier can be installed on any Linux system. While not tested, it likely works on the BSDs as well.</p>
+	<button onclick="window.location.href='download.html';">
+	Download
+	</button>
+	<h2>Copyright</h2>
+	<p>Glacier is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the license, or (at your option) any later version.</p>
+	<p>Glacier is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+	<p>You should have recieved a copy of the GNU General Public License along with Glacier. If not, see &lt;https://www.gnu.org/licenses&gt;.</p>
+</div>
+<footer>
+<p>Copyright (C) 2021-2023 Everest Linux</p>
+<p>Linux (R) is a registered trademark of Linus Torvalds.</p>
+<p>Glacier is provided AS IS, WITHOUT WARRANTY.</p>
+</footer>
